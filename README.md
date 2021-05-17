@@ -21,5 +21,5 @@ variants of the basic `hello` executable:
    and requires that MPI be installed on your machine. This version of the program
    is executed as follows:
 
-    mpiexec -np 4 ./hello_mpi
+       mpiexec -np 4 ./hello_mpi
 
