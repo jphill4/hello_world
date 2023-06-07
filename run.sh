@@ -8,5 +8,6 @@
 #PBS -k oed
 
 module purge
+module add comp-intel
 module add mpi-hpe/mpt
 mpiexec -np 20 build_mpi/hello_mpi
